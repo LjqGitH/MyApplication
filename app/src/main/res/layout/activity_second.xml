@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <EditText
+            android:id="@+id/et_second_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入您的信息">
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_second_back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一般返回"
+            android:onClick="back1">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_second_back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="带结果的返回"
+            android:onClick="back2">
+        </Button>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
